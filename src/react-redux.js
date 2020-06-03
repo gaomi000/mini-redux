@@ -32,7 +32,7 @@ export function connect(mapStateToProps, mapDispatchToProps) {
         handleStoreChange() {          
             // 触发更新          
             // 触发的方法有多种,这里为了简洁起见,直接forceUpdate强制更新,读者也可以通过setState来触发子组件更新          
-            this.forceUpdate()        
+            this.forceUpdate()         
         }        
         render() {          
             return (            
